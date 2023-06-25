@@ -9,6 +9,9 @@ if ($con) {
 } else {
     echo "Not connected";
 }
+//   ----Hi--
+
+
 if (isset($_POST["button_save"])) {
     $latin_first_name = $_POST["latin_first_name"];
     $latin_last_name = $_POST["latin_last_name"];
